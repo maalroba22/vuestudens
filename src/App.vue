@@ -1,8 +1,14 @@
 <template>
- <h1>Hola Mundo</h1>
+ <h1>Listado de Post</h1>
+ <!-- <PostContainer/> -->
+ <CounterOption/>
+ <CounterComposition/>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
+import PostContainer from './components/PostContainer.vue';
+import CounterOption from './components/CounterOption.vue';
+import CounterComposition from './components/CounterComposition.vue';
 
 </script>
 
