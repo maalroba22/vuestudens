@@ -1,12 +1,12 @@
 <template>
  <h1>Listado de Post</h1>
  <!-- <PostContainer/> -->
- <CounterOption/>
+<!--  <CounterOption/>
  <CounterComposition/>
  <ExampleSelctive/>
  <ExampleForm/>
- <ClassBinding/>
- 
+ <ClassBinding/> -->
+ <ModelsForm/> 
  
 </template>
 
@@ -17,6 +17,7 @@ import CounterComposition from './components/CounterComposition.vue';
 import ExampleSelctive from './components/ExampleSelctive.vue';
 import ExampleForm from './components/ExampleForm.vue';
 import ClassBinding from './components/ClassBinding.vue';
+import ModelsForm from './components/ModelsForm.vue';
 
 </script>
 
