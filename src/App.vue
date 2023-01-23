@@ -1,23 +1,23 @@
 <template>
- <h1>Listado de Post</h1>
  <!-- <PostContainer/> -->
 <!--  <CounterOption/>
  <CounterComposition/>
  <ExampleSelctive/>
  <ExampleForm/>
  <ClassBinding/> -->
- <ModelsForm/> 
- 
+ <!-- <ModelsForm/>  -->
+ <ClassRunVue/> 
 </template>
 
 <script lang="ts" setup>
-import PostContainer from './components/PostContainer.vue';
+/* import PostContainer from './components/PostContainer.vue';
 import CounterOption from './components/CounterOption.vue';
 import CounterComposition from './components/CounterComposition.vue';
 import ExampleSelctive from './components/ExampleSelctive.vue';
 import ExampleForm from './components/ExampleForm.vue';
-import ClassBinding from './components/ClassBinding.vue';
-import ModelsForm from './components/ModelsForm.vue';
+import ClassBinding from './components/ClassBinding.vue'; */
+/* import ModelsForm from './components/ModelsForm.vue'; */
+import ClassRunVue from './components/PracticaClase/ClassRun.vue';
 
 </script>
 
