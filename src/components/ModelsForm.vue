@@ -4,10 +4,10 @@
     <input type="text" name="dato" id="dato" v-model="inputText">
     <h3>{{ inputText }}</h3>
     <input type="checkbox" name="terminos" id="terminos" v-model="acepto">Acepto los Terminos y Condiciones
-    <select name="pais" id="pais">
-        <option value="">Colombia</option>
-        <option value="">Argentina</option>
-        <option value="">Peru</option>
+    <select name="pais" id="pais" v-model="pais ">
+        <option value="col">Colombia</option>
+        <option value="arg">Argentina</option>
+        <option value="per">Peru</option>
     </select>
 </form>
 </template>
@@ -16,6 +16,7 @@
 import {ref ,Ref}from 'vue'
     let inputText:Ref<string> = ref('')
     let acepto = ref(true)
+    let pais = ref('col')
 </script>
 
 <style scoped></style>
