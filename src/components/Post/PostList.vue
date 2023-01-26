@@ -3,7 +3,7 @@ import PostDetails from './PostDetails.vue';
 
 <template>
     <div class="container">
-        <PostDetails v-for="el in info" :key="el.title" :title="el.title" :content="el.content"  />
+        <PostDetails v-for="el in info" :key="el.title" :title="el.title" :content="el.content" @soyhai="showAlert" />
        
     </div>
 
@@ -41,6 +41,10 @@ let info:Array<Ipost> = [
     }
 
 ]
+
+function showAlert(msg:string){
+    alert(msg)
+}
 
 </script>
 
