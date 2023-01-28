@@ -9,7 +9,7 @@ import App from './App.vue'
 
  app.directive('font-size',{
     beforeMount: (el,binding)=>{
-
+     el.style.fontSize = "50px"
     }
     
  })

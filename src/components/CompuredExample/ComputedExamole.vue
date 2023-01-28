@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Example cadena invertida</h1>
+        <p v-font-size>Example cadena invertida</p>
 
         <input type="text" v-model="message">
         <h3>{{ message }}</h3>
