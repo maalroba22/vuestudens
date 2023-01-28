@@ -9,7 +9,9 @@
 <!--  <ClassRunVue/>  -->
 <!-- <CyrcleOption/>
 <CyrcleConpositio/> -->
-<PostListVue/>
+<!-- <PostListVue/> -->
+<ComputedExamole />
+<ComputedFactura/>
 </template>
 
 <script lang="ts" setup>
@@ -24,6 +26,8 @@ import ClassBinding from './components/ClassBinding.vue'; */
 import CyrcleOption from './components/CyrcleOption.vue';
 import CyrcleConpositio from './components/CyrcleConpositio.vue';
 import PostListVue from './components/Post/PostList.vue';
+import ComputedExamole from './components/CompuredExample/ComputedExamole.vue';
+import ComputedFactura from './components/CompuredExample/ComputedFactura.vue';
 
 </script>
 
