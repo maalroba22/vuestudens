@@ -1,9 +1,9 @@
 <template>
     <div>
-    <h1>Facturas usando Computed</h1>
+    <h1 v-custon-size:xl>Facturas usando Computed</h1>
 
     <input type="number" name="" id="" v-model="subTotal">
-   <h2>Total Iva :{{ totalIva }}  ({{ iva }}%)</h2>
+   <h2 v-custon-font.blue>Total Iva :{{ totalIva }}  ({{ iva }}%)</h2>
     </div>
 </template>
 
