@@ -1,10 +1,10 @@
 <template>
     <div>
-        <p v-font-size>Example cadena invertida</p>
+        <p v-custon-size:sm>Example cadena invertida</p>
 
         <input type="text" v-model="message">
         <h3>{{ message }}</h3>
-        <h2>{{ reverse }}</h2>
+        <h2 v-custon-size:xl >{{ reverse }}</h2>
 
     </div>
 </template>
